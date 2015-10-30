@@ -1,2 +1,4 @@
 # node install dir
 node_modules
+# debug log
+npm-debug.log
