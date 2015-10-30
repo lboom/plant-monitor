@@ -1,0 +1,23 @@
+{
+  "name": "Plant-monitor",
+  "version": "0.0.1",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "sqlite3": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lboom/plant-monitor.git"
+  },
+  "author": "tishbite@futel.net",
+  "license": "GPL v2",
+  "bugs": {
+    "url": "https://github.com/lboom/plant-monitor/issues"
+  }
+}

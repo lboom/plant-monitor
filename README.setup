@@ -1,0 +1,21 @@
+# this is a work in progress
+# probably move the post image write work to a shell script
+Basic setup:
+  raspian image: https://downloads.raspberrypi.org/raspbian_latest
+  install:
+  https://www.raspberrypi.org/documentation/installation/installing-images/README.md
+  write image: dd bs=4M if=<current raspbian>.img of=/dev/<drive>
+  sync
+  install card and login: user: pi pass: raspberry
+  
+  package prep:
+  apt-get update
+  apt packages:
+    vim-nox(if developing locally)
+    nodejs(create a symlink at /usr/bin/node)
+    npm
+
+  non apt packages:
+    RPi.GPIO: python gpio library
+      https://pypi.python.org/packages/source/R/RPi.GPIO/RPi.GPIO-0.5.11.tar.gz
+      docs: https://pypi.python.org/pypi/RPi.GPIO
